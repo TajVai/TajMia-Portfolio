@@ -11,8 +11,9 @@ h1 {
     color: chartreuse;
 }
 
-section {
+.flexible-conteiner {
     display: flex;
+
 }
 
 .hufwith {
@@ -46,8 +47,47 @@ section {
     background-repeat: no-repeat;
 }
 
+#secountdiv {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#firstdiv {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
 .Dream-big {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+
+.orange-color {
+    color: orange;
+}
+
+.Experiences-area {
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+
+}
+
+.Experiences-background {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
 }
