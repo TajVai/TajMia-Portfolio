@@ -39,5 +39,8 @@ section {
 
 .top-banner {
     background-image: url(images/top-banner.png);
+}
+
+.top-banner {
     background-repeat: no-repeat;
 }
