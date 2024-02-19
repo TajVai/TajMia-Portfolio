@@ -39,8 +39,15 @@ section {
 
 .top-banner {
     background-image: url(images/top-banner.png);
+    margin-bottom: 150px;
 }
 
 .top-banner {
     background-repeat: no-repeat;
+}
+
+.Dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
